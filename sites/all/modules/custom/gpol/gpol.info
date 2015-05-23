@@ -1,0 +1,6 @@
+name = Guia Politico core
+description = Guia Politico core description
+package = custom
+core = 7.x
+php = 5.x
+

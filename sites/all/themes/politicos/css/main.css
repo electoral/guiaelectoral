@@ -1,0 +1,175 @@
+body {
+background: #E8E1A2;
+color: #252614;
+font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color:#65613E;
+}
+
+a:hover {
+  color:#E34040;
+}
+
+.main-header {
+  background-color: #E34040; 
+  border-bottom: 8px solid #fff;
+  border-top: 8px solid #fff;
+  margin-bottom: 20px;
+  text-align:center;
+
+  transform: rotate(-2deg);
+  margin-top: 20px;
+}
+
+.main-heading {
+border-top: 2px solid #E34040;
+color: #fff;
+  font-size: 55px;
+  padding: 20px 0;
+}
+
+.main-heading a {
+  color: #fff;
+}
+
+.main-heading a:hover {  
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Arvo', serif;
+color:#65613E;
+}
+
+.main-content {
+  padding-top: 20px;
+}
+
+/* Node*/
+.politic-data-element {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.news-title {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.politic-picture img {
+  border: 2px solid #65613E;
+  display:block;
+  height:auto;
+  max-width:100%
+}
+
+.page-bottom {
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.news-date,
+.new-source {
+  color: rgba(101, 97, 62, 0.68);
+ display: inline-block;
+font-size: 13px;
+}
+
+.view-noticias .views-label {
+  color: rgba(101, 97, 62, 0.68);
+}
+
+.view-noticias ul {
+  padding-left: 10px;
+}
+
+.view-noticias li {
+  padding-top: 10px;
+  border-bottom: 1px solid #ccc;	
+padding-bottom: 10px;
+position: relative;
+}
+
+/* Rate widget */
+.view-noticias .views-row:hover {
+  background: rgba(204, 204, 204, 0.2);
+}
+
+.view-noticias li li {
+  border-bottom: none;
+  padding-bottom: 5px;
+}
+
+.view-noticias ul ul {
+  padding-top: 5px;
+}
+
+.views-field-php {
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+}
+
+.news-date,
+.new-source a {
+  color: rgba(101, 97, 62, 0.68);
+}
+
+.view-id-partidos_politicos .views-exposed-widget {
+  padding: 0;
+  width: 100%;
+}
+
+.view-id-partidos_politicos ul {
+  padding-left: 0;
+}
+.view-id-partidos_politicos li {
+  border-bottom: 1px solid rgba(101, 97, 62, 0.37);
+font-size: 16px;
+padding: 5px 0;  
+list-style: none;
+}
+
+.partido-name,
+.views-field-field-imagen-partido {
+  display: inline-block;
+}
+
+.politic-picture .content {
+  margin-top: 20px;
+}
+
+.politic-picture .content label {
+  display: none;
+}
+
+.gpol-graph-voting {
+  font-size: 0;
+}
+
+#first-time {
+  display: none;
+}
+
+#block-views-politicos-mas-votados-block {
+  margin-top: 20px;
+}
+
+#block-views-politicos-mas-votados-block .views-row {
+  margin-bottom: 10px;
+}
+.views-field-title,
+.views-field-field-imagen-partido {  
+  display: inline-block;
+}
+.views-field-field-imagen-partido {  
+  margin-right: 5px;
+}
