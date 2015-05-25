@@ -49,7 +49,7 @@ function theme_gpol_politico_chart_news_votes($variables) {
 function gpol_display_politico_chart_news_votes() {
   $query = new EntityFieldQuery();
   $query->entityCondition('entity_type', 'node')
-    ->entityCondition('bundle', 'noticias') 
+    ->entityCondition('bundle', 'noticias')
     ->fieldCondition('field_politicos_afectados','target_id', arg(1), '=');
   $result = $query->execute();
   if (isset($result['node'])) {
@@ -86,4 +86,14 @@ function gpol_display_politico_chart_news_votes() {
     return '<div class="gpol-graph-voting"><span>.</span>' . drupal_render($chart) . '</div>';
   }
   return '';
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function gpol_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'views_exposed_form' && $form_state['view']->name == 'partidos_politicos') {
+    $label = $form['#info']['filter-name']['label'];
+    $form['name']['#placeholder'] = t($label);
+  }
 }
