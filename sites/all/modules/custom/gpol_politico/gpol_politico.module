@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the gpol_politico feature.
+ */
+
+include_once 'gpol_politico.features.inc';
