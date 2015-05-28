@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the gpol_noticia feature.
+ */
+
+include_once 'gpol_noticia.features.inc';
